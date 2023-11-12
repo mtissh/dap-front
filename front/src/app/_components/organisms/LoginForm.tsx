@@ -31,7 +31,7 @@ export const LoginForm = () => {
           type='password'
           placeholder='パスワードを入力'
         />
-        <Button isDisabled={!isValid || isSubmitting}>ログイン</Button>
+        <Button type='submit' isDisabled={!isValid || isSubmitting}>ログイン</Button>
         <p className='text-center mt-[7%] md:mt-[25px]'>
           <LinkText href={'#'}>パスワードをお忘れの方はこちら</LinkText>
         </p>
