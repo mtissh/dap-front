@@ -1,4 +1,4 @@
-import { ButtonProps } from '@/types/atoms/Button';
+import { ButtonProps } from '@/types/atoms';
 
 export const Button = ({ type, children, isDisabled }: ButtonProps) => (
   <button 

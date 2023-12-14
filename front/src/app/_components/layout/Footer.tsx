@@ -1,4 +1,3 @@
-
 export const Footer = () => {
   return (
     <footer className='border-t border-solid border-t-stone-400'>

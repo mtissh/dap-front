@@ -1,4 +1,4 @@
-import { LabelProps } from '@/types/atoms/Label';
+import { LabelProps } from '@/types/atoms';
 
 export const Label = ({ htmlFor, children }: LabelProps) => (
   <label

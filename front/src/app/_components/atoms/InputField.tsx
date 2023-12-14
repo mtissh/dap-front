@@ -1,5 +1,5 @@
 import { FieldValues, useFormContext } from 'react-hook-form';
-import { InputFieldProps } from '@/types/atoms/InputField';
+import { InputFieldProps } from '@/types/atoms';
 
 export const InputField = <T extends FieldValues>({
   name,

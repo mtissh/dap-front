@@ -1,7 +1,7 @@
 'use client';
 
 import { FormProvider } from 'react-hook-form';
-import { Button, LinkText } from '../atoms';
+import { Button } from '../atoms';
 import { FormField } from '../molecules';
 import { useUserLogin } from '@/hooks/useUserLogin';
 
@@ -32,9 +32,10 @@ export const LoginForm = () => {
           placeholder='パスワードを入力'
         />
         <Button type='submit' isDisabled={!isValid || isSubmitting}>ログイン</Button>
-        <p className='text-center mt-[7%] md:mt-[25px]'>
+        {/* TODO: パスワードリセット機能はまだ */}
+        {/* <p className='text-center mt-[7%] md:mt-[25px]'>
           <LinkText href={'#'}>パスワードをお忘れの方はこちら</LinkText>
-        </p>
+        </p> */}
       </form>
     </FormProvider>
   );

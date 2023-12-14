@@ -1,5 +1,5 @@
 import { LoginForm } from '../_components/organisms/LoginForm';
-import { AuthTemplate } from '../_components/templates/AuthTemplate';
+import { AuthTemplate } from '../_components/templates';
 
 const Index = () => {
   return (
